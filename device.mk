@@ -48,6 +48,14 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/audio/audio_policy_configuration.xml:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_EXTRA_VNDK_VERSIONS)/etc/audio_policy_configuration.xml
 
+# Bluetooth
+PRODUCT_PACKAGES += \
+    libldacBT_dec
+
+# Device Settings
+PRODUCT_PACKAGES += \
+    devicesettings
+
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
@@ -73,7 +81,8 @@ PRODUCT_COPY_FILES += \
 # Init
 PRODUCT_PACKAGES += \
     init.mt6785.rc \
-    fstab.mt6785
+    fstab.mt6785 \
+    init.devicesetting.rc 
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
