@@ -5,11 +5,9 @@ etc/apns-conf.xml:product/etc/apns-conf.xml
 lib64/libaptX_encoder.so
 lib64/libaptXHD_encoder.so
 
-<<<<<<< HEAD
 # HotwordEnrollment
 -product/priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk
 
-=======
 # IMS
 -framework/mediatek-common.jar
 -framework/mediatek-framework.jar
@@ -42,4 +40,3 @@ bin/kpoc_charger
 etc/init/kpoc_charger.rc
 lib/libshowlogo.so
 lib/libsysenv_system.so
->>>>>>> d4bbe7e... RMX2001: Enable KPOC
