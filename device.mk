@@ -123,15 +123,6 @@ PRODUCT_PACKAGES += \
 # Telephony
 PRODUCT_PACKAGES += vendor.mediatek.hardware.videotelephony@1.0
 
-PRODUCT_BOOT_JARS += \
-    mediatek-common \
-    mediatek-framework \
-    mediatek-ims-base \
-    mediatek-ims-common \
-    mediatek-telecom-common \
-    mediatek-telephony-base \
-    mediatek-telephony-common
-
 # Vendor Services - DISABLED
 PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/placeholder:$(TARGET_COPY_OUT_PRODUCT)/vendor_overlay/$(PRODUCT_EXTRA_VNDK_VERSIONS)/etc/init/vendor.oppo.hardware.biometrics.face@1.0-service.rc
