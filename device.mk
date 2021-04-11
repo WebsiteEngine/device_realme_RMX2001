@@ -55,10 +55,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libldacBT_dec
 
-# Device Settings
-PRODUCT_PACKAGES += \
-    devicesettings
-
 # fastbootd
 PRODUCT_PACKAGES += \
     fastbootd
@@ -84,8 +80,7 @@ PRODUCT_COPY_FILES += \
 # Init
 PRODUCT_PACKAGES += \
     init.mt6785.rc \
-    fstab.mt6785 \
-    init.devicesetting.rc 
+    fstab.mt6785
 
 # Keylayouts
 PRODUCT_COPY_FILES += \
