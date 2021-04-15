@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/fluid_RMX2001.mk
+    $(LOCAL_DIR)/aosp_RMX2001.mk
