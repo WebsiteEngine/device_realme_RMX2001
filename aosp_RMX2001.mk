@@ -26,14 +26,15 @@ TARGET_INCLUDE_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_STOCK_ARCORE := true
-FLUID_BUILD_TYPE := UNOFFICIAL
-PRODUCT_PRODUCT_PROPERTIES += \
-  ro.fluid.maintainer=ManshuTyagi \
-  ro.fluid.cpu=Mediatek-G90T
+PRODUCT_PROPERTY_OVERRIDES += \
+  ro.ppui.device_name=Realme-G90T-Series \
+  ro.ppui.version=3.3 \
+  ro.ppui.version_code=Tanzanite \
+  ro.ppui.maintainer_name=TheCloverly
 $(call inherit-product, vendor/fluid/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := fluid_RMX2001
+PRODUCT_NAME := aosp_RMX2001
 PRODUCT_DEVICE := RMX2001
 PRODUCT_BRAND := realme
 PRODUCT_MODEL := Realme G90T Series
