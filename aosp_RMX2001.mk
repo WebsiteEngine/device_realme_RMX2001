@@ -31,7 +31,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
   ro.ppui.version=3.3 \
   ro.ppui.version_code=Tanzanite \
   ro.ppui.maintainer_name=TheCloverly
-$(call inherit-product, vendor/fluid/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_RMX2001
